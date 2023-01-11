@@ -117,7 +117,7 @@ ls: cannot access '/dev/ttyUSB*': No such file or directory
   ```
 That means your board isn't detected. remove it and plug it in again.
 
-## 5-compile and upload code 
+## 5-Compile and upload code 
 
 in the same directory where you created your arduino code 
 open the terminal and type: 
