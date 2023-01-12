@@ -1,8 +1,9 @@
 
 # Arduino-Makefile 
 
-Are you fed up with using the arduino IDE 
-here is a geeky way to build and compile projects 
+Are you fed up with using the arduino IDE?
+
+Here is a geeky way to build and compile projects 
 using Makefile and linux terminal.
 
 You need to follow these steps:
@@ -86,7 +87,7 @@ $sudo dmesg | tail -f
   ```
 you should see something like this: 
 
-```bash
+```
 [85441.284838] sd 2:0:0:0: [sdb] Attached SCSI removable disk
 [85455.454024] usb 1-4: USB disconnect, device number 59
 [85455.499489] FAT-fs (sdb): unable to read boot sector to mark fs as dirty
@@ -117,7 +118,7 @@ ls: cannot access '/dev/ttyUSB*': No such file or directory
   ```
 That means your board isn't detected. remove it and plug it in again.
 
-## 5-Compile and upload code 
+## 5-compile and upload code 
 
 in the same directory where you created your arduino code 
 open the terminal and type: 
