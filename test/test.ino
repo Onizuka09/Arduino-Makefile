@@ -15,6 +15,6 @@ if (Serial.available ()){
 a = Serial.readStringUntil('\n');
 digitalWrite (13,!digitalRead(13)); 
 Serial.println(a);
-delay(1000);
+
 }
 }
